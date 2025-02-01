@@ -1,10 +1,6 @@
 import random
+from wordslist import words
 
-
-words = (
-    "apple", "banana", "orange", "pear", "cherry", "strawberry", "raspberry", "mango", "pineapple", "kiwi",
-    "grape", "melon", "watermelon", "peach", "apricot", "plum", "pomegranate", "coconut", "fig", "papaya"
-)
 
 
 def word_to_guess(tuple):
@@ -54,11 +50,11 @@ def main():
         else:
             error+=1
             print(f"No {letter} in the word")
-            print(f"{3-error} try remaining")
+            print(f"{5-error} try remaining")
             see_advancement(sword)
-            if error == 3:
+            if error == 5:
                 print(f"The word was {see_advancement(word)}")
-                new_game = input("You loose, try again (type y to continue) : ")
+                new_game = input("You lose, try again (type y to continue) : ")
                 if new_game.casefold() == "y":
                     main()
                 else:
