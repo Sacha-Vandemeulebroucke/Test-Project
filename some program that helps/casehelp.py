@@ -1,5 +1,3 @@
-
-
 def day_of_week(day):
     match day:
         case "Monday" | "Tuesday" | "Wednesday" | "Thursday" | "Friday":

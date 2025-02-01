@@ -1,9 +1,5 @@
 
 
-#word =["m","a","n","g","o"]
-
-#sword = ["*"]*5
-
 def add_new_word_func(word,sword,letter):
     for le in range(len(word)):
         if word[le] == letter:

@@ -1,4 +1,4 @@
-from assignement_2 import Chien
+from blockchain_help.scripts_blockchain import Chien
 
 
 balbochien = Chien("Balbochacal","BalboSnoop")
