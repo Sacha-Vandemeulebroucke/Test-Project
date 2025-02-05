@@ -14,8 +14,8 @@ class Cat(Animal):
         print("Meow")
 
 class Car:
-    alive = False
-
+    alive = False  # Car n'est pas un Animal( il n'hérite pas de cette classe) pourtant il a les mêmes variables de classe et les mêmes méthodes
+#                    On peut donc le considérer comme un animal
     def speak(self):
         print("HONK")
 

@@ -4,7 +4,7 @@ from abc import abstractmethod
 
 class Shape:
 
-    @abstractmethod
+    @abstractmethod  # @abstractmethod oblige les sous classes à comporter la méthode qui suit. ici : aera
     def area(self):
         pass
 
